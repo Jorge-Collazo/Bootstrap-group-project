@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Characters</title>
+    <title>Characters-Gogeta</title>
+    <!--links the bootstrap css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
+<!--The class in the body paragragh makes entire page have a dark background-->
 <body class="bg-dark">
+    <!--Creates the navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-danger border border-secondary">
+        <!--Adds the logo and sets it as a link to the home page-->
         <a class="nav- text-dark" href="index.html"><img src="Images/Logo.png" class="img-fluid" alt="Responsive image" height="120px" width="120px"><span class="sr-only">(current)</span></a>
+        <!--Creates a button that appears on smaller devices to dropdown the navigation-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!--Contains all the links to the other main pages-->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item">
@@ -24,15 +30,20 @@
             <li class="nav-item">
                 <a class="nav-link text-dark" href="combos.html">Combos</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="mechanics.html">Machanics</a>
+            </li>
             </ul>
         </div>
     </nav>
+    <!--Adds a title and a fluid image-->
     <div class="jumbotron jumbotron-fluid bg-dark text-white float-left ml-4">
-        <div class="container">
-          <h1 class="display-4">Gogeta</h1>
-          <img src="Images/GogetaIcon.png" class="img-fluid" alt="Responsive image">
-        </div>
+      <div class="container">
+        <h1 class="display-4">Gogeta</h1>
+        <img src="Images/GogetaIcon.png" class="img-fluid" alt="Responsive image">
+      </div>
     </div>
+    <!--Adds a set of images that alternate between each other and alternated by the user. It is floated right to have it at the side of the title and initial image-->
     <div id="carouselExampleInterval" class="carousel float-right m-5 border rounded-lg" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-interval="1000">
@@ -72,6 +83,7 @@
             <img src="Images/GogetaAlt12.png" class="d-block width-450" alt="Alt">
           </div>
         </div>
+        <!--Adds to buttons to swich from image to image-->
         <a class="carousel-control-prev bg-transparent" href="#carouselExampleInterval" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -81,7 +93,7 @@
           <span class="sr-only">Next</span>
         </a>
     </div>
-      
+    <!--Adds a card that floats left and contains an image and information-->
     <div class="card float-left w-50 ml-5 mb-3 bg-secondary text-white">
         <img src="Images/GogetaAssists.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -90,8 +102,9 @@
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
     </div>
-      
+    <!--Creates a card group that holds three cards--> 
     <div class="card-group float-left m-4">
+      <!--Makes a card that holds an image and information-->
         <div class="card m-2 bg-secondary text-white">
             <img src="Images/GogetaSuper1.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -100,6 +113,7 @@
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </div>
+        <!--Makes a card that holds an image and information-->
         <div class="card m-2 bg-secondary text-white">
           <img src="Images/GogetaSuper2.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -108,6 +122,7 @@
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
+        <!--Makes a card that holds an image and information-->
         <div class="card m-2 bg-secondary text-white">
           <img src="Images/GogetaSuper3.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -117,16 +132,19 @@
           </div>
         </div>
     </div>
+    <!--Centers the card to the middle of the body-->
     <div class="mx-auto " style="width: 1000px;">
-        <div class="card float-left w-100 mb-3 bg-secondary text-white" >
-            <img src="Images/GogetaLV3-5.png" class="card-img-top" alt="Level-3">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
+      <!--Makes a card that holds an image and information-->
+      <div class="card float-left w-100 mb-3 bg-secondary text-white jumbotron-fluid" >
+          <img src="Images/GogetaLV3-5.png" class="card-img-top" alt="Level-3">
+          <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+      </div>
     </div>
+    <!--links the bootstrap Javascript-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

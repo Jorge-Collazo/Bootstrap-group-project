@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Leaderboard</title>
+    <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
+<!--The class in the body paragragh makes entire page have a dark background-->
 <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger border border-secondary">
+    <!--Creates the navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <!--Adds the logo and sets it as a link to the home page-->
         <a class="nav- text-dark" href="index.html"><img src="Images/Logo.png" class="img-fluid" alt="Responsive image" height="120px" width="120px"><span class="sr-only">(current)</span></a>
+        <!--Creates a button that appears on smaller devices to dropdown the navigation-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!--Contains all the links to the other main pages-->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item">
@@ -33,40 +38,18 @@
             </ul>
         </div>
     </nav>
-    <!-- Allows you to see the actual top ten players at the time. -->
+    <!--Creates a fluid jumbotron that holds the title, image and description and takes the entire horizontal space of the parent element-->
     <div class="jumbotron jumbotron-fluid bg-dark text-white">
         <div class="container">
-            <h1 class="display-4">Dragon Ball FighterZ Leaderboard</h1>
-            <img src="Images/LeaderBoard.png" class="img-fluid" alt="Responsive image">
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="display-4">Learn About the Characters</h1>
+            <img src="Images/Logo.png" class="img-fluid" alt="Responsive image">
+            <p class="lead">Type in the character name below(Case Sensitive) and we will try and pull information about them for you!</p>
         </div>
     </div>
+    
+    .
 
-
-    <!-- Will name off top three players and an area about when they played, rank, and total BP. -->
-    <div class="card bg-secondary text-white m-3 border border-light rounded">
-        <div class="card-body">
-            <h5 class="card-title">Ranked #1: Aeristoff</h5>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        </div>
-    </div>
-    <div class="card bg-secondary text-white m-3 border border-light rounded">
-        <div class="card-body">
-            <h5 class="card-title">Ranked #2: retarded</h5>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        </div>
-    </div>
-    <div class="card bg-secondary text-white m-3 border border-light rounded">
-        <div class="card-body">
-            <h5 class="card-title">Ranked #3: MrPopo</h5>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        </div>
-    </div>
-
-    <!-- Links all JS at bottom to defer naturally. -->
+    <!--links the bootstrap Javascript-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
